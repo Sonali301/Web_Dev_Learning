@@ -1,0 +1,120 @@
+/* #container{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap:10px;
+}
+#container div{
+    background-color: pink;
+    font-size: 1.5rem;
+}
+.header{
+    grid-column: 1 / span 12;
+}
+.sidebar{
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 10;
+}
+.nav{
+    grid-column: 4/span 6;
+    
+}
+.main{
+    grid-column: 4 / span 6;
+    grid-row: 3/span 9;
+}
+.ads{
+    grid-column: 10 / span 3;
+    grid-row: 2/span 10;
+}
+.footer{
+    grid-column: 1 / span 12;
+} */
+
+/* 2nd question */
+/* 
+#container{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap:10px;
+}
+#container div{
+    background-color: pink;
+    font-size: 1.5rem;
+}
+.header{
+    grid-column: 1 / span 12;
+}
+.sidebar{
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 10;
+}
+.nav{
+    grid-column: 4/span 6;
+    
+}
+.main{
+    grid-column: 4 / span 6;
+    grid-row: 3/span 9;
+}
+.ads{
+    grid-column: 10 / span 3;
+    grid-row: 2/span 10;
+}
+.footer{
+    grid-column: 1 / span 12;
+}
+@media(max-width:720px){
+    .header{
+        grid-column: 1/span 12;
+    }
+    .nav{
+        grid-column: 1/span 12;
+        grid-row: 2;
+    }
+    .sidebar{
+        grid-row: 3/span 9;
+        grid-column:1/span 3;
+    }
+    .main{
+        grid-row: 3/span 9;
+        grid-column: 4/span 9;
+    }
+    .ads{
+        grid-column: 1/span 3;
+        grid-row: 12;
+    }
+    .footer{
+        grid-column: 4/span 9;
+        grid-row: 12;
+    }
+} */
+
+
+
+/* 3rd question */
+
+.loader{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    /* background-color: pink; */
+    border: 15px solid #f3f3f3;
+    border-top: 15px solid pink;
+    animation: xyz 2s linear infinite;
+/* }
+@keyframes xyz{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    } */
+}

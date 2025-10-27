@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "math.js",
+  "dependencies": {
+    "figlet": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sonali Kumari",
+  "license": "ISC",
+  "description": "",
+  "type":"module"
+}
